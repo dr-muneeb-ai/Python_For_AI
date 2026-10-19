@@ -1,5 +1,4 @@
-
-""" Collect business details and create a prompt for AI solutions."""
+""" Collect business details and create a prompt for AI solutions """
 
 name = input("Enter name: ")
 business = input("Enter business type (e.g. Kira Software Agency): ")
