@@ -48,7 +48,7 @@ while True:
         print(f"{BOT}: Connecting you to a human...")
         break
 
-    elif "refund" in message:
+    elif any(word in message for word in ["refund", "complaint", "problem", "issue"]):
         complaints += 1
         print(f"{BOT}: Don't even dream of it. wait 1 hour otherwise Go a Head")
 
@@ -70,7 +70,7 @@ while True:
     elif "admission" in message or "join" in message or "enroll" in message or "register" in message:
         print(f"{BOT}: Admissions are open. WhatsApp us on 0326-0999091 to book a free demo class.")
 
-    elif message == "hi" or message == "hello" or message.startswith("Assalam o Alaikum"):
+    elif message in ["hi", "hello", "salam"] or message.startswith("assalam o alaikum"):
         print(f"{BOT}: Han, {name}! What do you want now?")
     else:
         unanswered += 1
