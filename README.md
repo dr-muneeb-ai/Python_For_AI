@@ -9,7 +9,7 @@
 
 This repository contains my Python learning tasks and beginner-level AI projects. It focuses on Python fundamentals used in Generative AI and Agentic AI, including variables, data types, strings, user input, conditions, loops, and prompt engineering.
 
-The final project is **Bright Minds Bot**, a rule-based chatbot for a tuition centre. It answers common questions about fees, timings, courses, location, admissions, and complaints. It also counts unanswered questions and generates a sample prompt for future AI integration.
+The finished product is a rule-based chatbot for a tutoring facility called **Bright Minds Bot**. It provides answers to frequently asked concerns regarding costs, schedules, classes, locations, admissions, and grievances. Additionally, it creates a sample prompt for future AI integration and counts unanswered inquiries.
 
 ## Technologies Used
 
