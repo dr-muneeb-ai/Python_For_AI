@@ -2,8 +2,8 @@
 """ AI tutor that explains topics for beginners or experts. """
 
 import time
+from time import date
 from langchain.chat_models import init_chat_model
-
 prompt = input("Enter a topic to learn: ").strip()
 level = input("Choose your level (beginner/expert): ").strip().lower()
 if topic == "":
